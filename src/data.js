@@ -11,8 +11,4 @@ export const genes = [
     name: "Aurore Grey",
     age: 97,
   },
-  {
-    name: "Einstein Quantics",
-    age: 83,
-  },
 ];
