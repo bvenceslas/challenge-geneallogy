@@ -13,6 +13,8 @@ export default function Form({ onAddGeneas }) {
   function handleSubmit(e) {
     e.preventDefault();
 
+    if (!name || !age) return;
+
     const newGenea = {
       name,
       age,

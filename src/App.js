@@ -23,8 +23,6 @@ function App() {
   const [showForm, setShowForm] = useState(false);
   const [geneas, setGeneas] = useState(genes);
 
-  const isData = geneas.length;
-
   function handleShowFrom() {
     setShowForm((sh) => !sh);
   }
@@ -37,9 +35,9 @@ function App() {
     <div className="App">
       <h1>Smart Genealogy</h1>
 
-      <Computer />
+      <Computer geneas={geneas} />
 
-      {isData ? (
+      {geneas.length ? (
         <List geneas={geneas} />
       ) : (
         <p className="no-data">"😿 No Genealogy Data !!! ✍🏽"</p>
