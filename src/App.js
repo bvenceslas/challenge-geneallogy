@@ -1,6 +1,7 @@
 import { Button } from "./components/Button";
 import Computer from "./components/Computer";
 import List from "./components/List";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
 
       <List />
 
-      <Button>Add Genealogy</Button>
+      <Button type="opened">Add Genealogy</Button>
+
+      <Form />
     </div>
   );
 }

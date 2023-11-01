@@ -9,7 +9,8 @@
   width: 700px;
   height: auto;
   margin: 0 auto;
-  border: 2px solid red;
+  padding: 15px;
+  border: 3px dotted red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,6 +20,7 @@
   text-align: center;
   font-size: 38px;
   font-family: "Monoton", sans-serif;
+  margin: 0;
 }
 
 .computer {
@@ -31,7 +33,7 @@
 .computer p {
   margin: 10px 0px;
   padding: 0;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -41,7 +43,7 @@
   font-family: "Monoton", sans-serif;
   font-weight: bold;
   border-radius: 50%;
-  background-color: rgb(6, 106, 227);
+  background-color: rgb(11, 120, 184);
   color: white;
   display: flex;
   align-items: center;
@@ -87,28 +89,32 @@
 }
 
 .form {
-  width: 500px;
+  width: 400px;
   border: 1px solid gray;
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 3px dashed green;
+  border: 1px dotted gray;
 }
 
 .data {
-  width: 400px;
+  width: 350px;
   display: flex;
   justify-content: space-between;
   margin: 10px;
 }
 
-.form > h3 {
+.data > input {
+  width: 200px;
+}
+
+.form > h4 {
   margin: 10px 0;
   padding: 0;
   text-align: center;
 }
 
-.button.opened {
+.opened {
   margin: 10px;
   width: 150px;
   padding: 5px;
@@ -117,11 +123,16 @@
   background-color: rgb(11, 120, 184);
 }
 
-.button-close {
+.closed {
   margin: 10px;
   width: 150px;
   padding: 5px;
   border-radius: 3px;
   color: white;
-  background-color: rgb(184, 11, 54);
+  background-color: rgb(119, 9, 37);
+}
+
+.btn {
+  width: auto;
+  display: flex;
 }
