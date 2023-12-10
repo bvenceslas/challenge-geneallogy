@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/challenge-geneallogy/static/css/main.e1e110a5.css",
+    "main.js": "/challenge-geneallogy/static/js/main.f9a1e382.js",
+    "index.html": "/challenge-geneallogy/index.html",
+    "main.e1e110a5.css.map": "/challenge-geneallogy/static/css/main.e1e110a5.css.map",
+    "main.f9a1e382.js.map": "/challenge-geneallogy/static/js/main.f9a1e382.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1e110a5.css",
+    "static/js/main.f9a1e382.js"
+  ]
+}
